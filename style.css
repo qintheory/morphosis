@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+/*    padding: 30px;*/
+}
+
+main{
+    color: white;
+}
+
+
+/*HEADER NAV BAR*/
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    
+    background-color: white;
+    
+    display: flex;
+    align-items: center;
+    
+    box-shadow: 0 0 25px 0 grey;
+    font-family: futura;
+}
+
+
+header img{
+    height: 80px;
+    margin-left: 40px;
+}
+
+
+header * {
+    display: inline;
+}
+
+header li{
+/*    display: inline-block;*/
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+header li:hover {
+  color: #DBE9EE;
+}
+
+/* HERO IMAGE*/
+
+.hero-section {
+    top: 50px;
+    background-image: url(data/background-small.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    opacity: 0.7;
+}
+
+.hero-section-text {
+    color: $white;
+    background-color: 
+/*    text-shadow: 1px 0 0 black;*/
+}
+.hero-section-text h1{
+    font-family: futura;
+    line-height: 80px;
+    letter-spacing: 5px;
+}
+
+.hero-section-text h3{
+    font-family: futura;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+.hero-section-text h2{
+    font-family: futura;
+    line-height: 80px;
+    letter-spacing: 5px;
+}
+
+/*Introduction*/
+.intro{
+    width: 100%;
+    position: flex;
+    padding: 50 px;
+    font-family: futura;
+
+}
+
+.intro img{
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+}
+
+.intro div{
+    padding: 80px;
+    font-family: futura;
+    font-size: 15px;
+    padding: 80px;
+    align-content: flex-start;
+}
+
+
+
+
+.signup{
+    background-image: url(data/patch-green.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
+    margin: 50px;
+    margin-bottom: 80px; 
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    font-family: futura;
+
+}
+
+.signup h2{
+    color: white;
+    align-content: center;
+    display: block;
+    position: flex;
+}
+
+.signup input{
+    font-family: futura;
+    font-size: 15px;
+    display: block;
+}
+
+input[type=text] {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.signupbtm {
+  background-color: #4CAF50;
+  display: block;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+}
+
+.story{
+    position: relative;
+    height: 500px;
+    font-family: futura;
+}
+
+.contact{
+    position: relative;
+}
+
+footer{
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: futura;
+    background-color: beige;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+}
