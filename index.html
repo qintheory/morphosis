@@ -14,10 +14,10 @@
         <img src = "data/logo.png">
         <nav>
             <ul>
-                <li><a href = "#">info</a></li>
-                <li><a href = "#">sign up</a></li>
+                <li><a href = "#intro">info</a></li>
+                <li><a href = "#signup">sign up</a></li>
                 <li><a href = "#">our story</a></li>
-                <li><a href = "#">contact us</a></li>
+                <li><a href = "#contact">contact us</a></li>
             </ul>
         </nav>
     </header>
@@ -30,27 +30,37 @@
         </div> 
     </div>
 
-    
-    <div class = "intro">
-    <img src = "data/logo.png">
-        <div class = "intro-text">
-            <h1> Who are we? </h1>
-            <p>NO WASTE IN NATURE: morphosis is a nature-inspired growing system which recycles 100% of food waste to produce biofertilizer. This produces both a methane-rich gas that can be used as a fuel to power the system, and a also biofertiliser that can be used in farming to boost crop growth. It is the hybrid of ancient technology, anaerobic digestion, and modern agritech, hydroponics enable growing new crops locally and economically without chemical additions.  </p>
-        </div>
-    </div>
-    
    <div class = "signup">
-        <h2>Receive Our Latest Progress</h2>
        
        <div class = "signup-input">
+           <br><br>
+           <br><br>
+           <h2>Hear from our updates</h2>
+           <form name="contact" method="POST" data-netlify="true">
+               <p><label for="email"><b>Enter your email</b></label></p>
+               <p><input type="text" placeholder="Enter Email" name="email"></p>
+                <p> <button type="submit" value="Sign Up" class="signupbtn">Send</button></p>
+           </form>
+<!--
             <label for="email"><b>Email</b></label>
 
             <input type="text" placeholder="Enter Email" name="email" required>
 
             <button type="signup" class="signupbtn">Sign Up</button>
+-->
         </div>
        
+    </div>   
+
+    
+    <div class = "intro">
+    <img src = "data/logo.png">
+        <div class = "intro-text">
+            <h1> Who are we? </h1>
+            <p>morphosis is a nature-inspired growing system which recycles 100% of food waste to produce biofertilizer. This produces both a methane-rich gas that can be used as a fuel to power the system, and a also biofertiliser that can be used in farming to boost crop growth. It is the hybrid of ancient technology, anaerobic digestion, and modern agritech, hydroponics enable growing new crops locally and economically without chemical additions.  </p>
+        </div>
     </div>
+    
 
     
 <!--

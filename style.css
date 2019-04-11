@@ -67,7 +67,7 @@ header li:hover {
 
 .hero-section {
     top: 50px;
-    background-image: url(data/background-small.jpg);
+    background-image: url(data/background-small.jpg), url(data/patch-beige.png);
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -138,9 +138,11 @@ header li:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+
     height: 50vh;
     margin: 50px;
     margin-bottom: 80px; 
+*/
     
     /* Flexbox stuff */
     display: flex;
@@ -153,37 +155,43 @@ header li:hover {
 
 }
 
-.signup h2{
+.signup h2{ 
+    top: 100px;
     color: white;
     align-content: center;
     display: block;
     position: flex;
+    padding-top: 100 px;
 }
 
-.signup input{
+.signup p{
     font-family: futura;
+    align-content: center;
     font-size: 15px;
-    display: block;
+    color: white;
 }
 
 input[type=text] {
   padding: 15px;
   margin: 5px 0 22px 0;
-  display: block;
+  align-content: center;
   border: none;
   background: #f1f1f1;
 }
 
-.signupbtm {
-  background-color: #4CAF50;
-  display: block;
+.signup lable {
   color: white;
-  padding: 16px 20px;
+}
+
+.signupbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
   opacity: 0.9;
+    font-family: futura;
 }
 
 }
